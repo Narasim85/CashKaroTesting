@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [JoinPage]" parallel="tests">
+  <test thread-count="2" name="Join Free from face book user from mobile number and password(failed)" parallel="tests">
+    <parameter name="instance" value="1"/>
+    <classes>
+      <class name="testCases.JoinUsFromFB">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="joinUsFromFaceBook" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testCases.JoinUsFromFB -->
+    </classes>
+  </test> <!-- Join Free from face book user from mobile number and password(failed) -->
+  <test thread-count="2" name="Join Free from face book email id and password(failed)" parallel="tests">
+    <parameter name="instance" value="1"/>
+    <classes>
+      <class name="testCases.JoinUsFromFB">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="joinUsFromFaceBook" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testCases.JoinUsFromFB -->
+    </classes>
+  </test> <!-- Join Free from face book email id and password(failed) -->
+</suite> <!-- Failed suite [JoinPage] -->

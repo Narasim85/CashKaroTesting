@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JoinPage" parallel="tests" thread-count="2">
+    
+    <test name="Join Free from face book user from mobile number and password">
+        <parameter name="instance" value="1"/>
+        <classes>
+            <class name="testCases.JoinUsFromNormalFlow"/>
+        </classes>
+    </test>
+    
+    <test name="Join Free from face book email id and password">
+        <parameter name="instance" value="1"/>
+        <classes>
+            <class name="testCases.JoinUsFromNormalFlow"/>
+        </classes>
+    </test>
+    
+</suite>
